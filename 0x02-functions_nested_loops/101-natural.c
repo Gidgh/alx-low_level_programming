@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -14,7 +15,7 @@ int main(void)
 	{
 	if ((i % 3 == 0) || (i % 5 == 0))
 	{
-	z += i
+	z += i;
 	}
 	i++;
 	}
